@@ -60,4 +60,4 @@ node general.js
 
 ## Assignment submission
 
-The upstream URL named in the course prompt currently responds with GitHub 404, and this workspace did not arrive with a clone. This project is therefore a local implementation, not evidence of a fork. Fork the course repository in your GitHub account when it is available, then push this implementation and submit your own public repository and `general.js` URL. Do not represent this local folder as a fork.
+This implementation is pushed to [mayank1821-cloud/expressBookReview](https://github.com/mayank1821-cloud/expressBookReview) on the `main` branch. Its public `general.js` URL is https://github.com/mayank1821-cloud/expressBookReview/blob/main/general.js. The upstream URL named in the course prompt currently responds with GitHub 404, so GitHub reports this repository as `fork: false`; do not represent it as a fork of the unavailable upstream. Replace `books.json` with the exact course catalog if you obtain it.
