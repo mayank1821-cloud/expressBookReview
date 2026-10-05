@@ -1,0 +1,5 @@
+Command (PowerShell 5):
+'{"username":"submission_reader","password":"coursepass123"}' | curl.exe -sS -X POST http://localhost:5000/customer/login -H 'Content-Type: application/json' --data-binary '@-'
+
+Output (JWT intentionally redacted):
+{"message":"Login successful","username":"submission_reader","token":"[REDACTED]"}

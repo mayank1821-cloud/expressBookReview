@@ -1,0 +1,5 @@
+Command (PowerShell 5):
+'{"username":"submission_reader","password":"coursepass123"}' | curl.exe -sS -X POST http://localhost:5000/register -H 'Content-Type: application/json' --data-binary '@-'
+
+Output:
+{"message":"User registered successfully","username":"submission_reader"}

@@ -1,0 +1,5 @@
+Command:
+curl.exe -sS http://localhost:5000/isbn/1
+
+Output:
+{"1":{"author":"Chinua Achebe","title":"Things Fall Apart","reviews":{}}}

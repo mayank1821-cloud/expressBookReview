@@ -1,0 +1,4 @@
+Not available yet. The assignment's upstream URL https://github.com/ibm-developer-skills-network/expressBookReview returned GitHub 404 when checked, and this workspace has no GitHub remote or authenticated account. No fork status/output is claimed.
+
+After creating the fork in your GitHub account, verify it on GitHub or with:
+gh repo view YOUR_GITHUB_USERNAME/YOUR_REPOSITORY --json nameWithOwner,isFork,parent

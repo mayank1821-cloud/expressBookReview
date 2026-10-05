@@ -1,0 +1,11 @@
+Add command (PowerShell 5; replace TOKEN with the login response token):
+'{"review":"A thoughtful and memorable book."}' | curl.exe -sS -X POST http://localhost:5000/customer/auth/review/1 -H 'Content-Type: application/json' -H "Authorization: Bearer TOKEN" --data-binary '@-'
+
+Add output:
+{"message":"Review added successfully","reviews":{"submission_reader":"A thoughtful and memorable book."}}
+
+Update command:
+'{"review":"Updated: a thoughtful and memorable book."}' | curl.exe -sS -X PUT http://localhost:5000/customer/auth/review/1 -H 'Content-Type: application/json' -H "Authorization: Bearer TOKEN" --data-binary '@-'
+
+Update output:
+{"message":"Review updated successfully","reviews":{"submission_reader":"Updated: a thoughtful and memorable book."}}
